@@ -1,0 +1,38 @@
+nav {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #364561;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    background: #435679;
+}
+nav .navicon {
+    font-size: 1.2em;
+    margin: 0 5px;
+}
+
+@media (max-width: 480px) {
+    nav a {
+        padding: 0 10px;
+        font-size: 0.85em;
+    }
+    nav .navicon {
+        font-size: 1em;
+    }
+}
